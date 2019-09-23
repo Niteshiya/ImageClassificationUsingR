@@ -26,7 +26,7 @@ str(my_pic)
 #Now all the pictures have the same dimention that is 120*120*3
 #For traning purpose we need to shape all images into 1D array of dim(l*b*color,1)
 for(i in 1:12){
-  my-pic[[i]] <- array_reshape(my_pic[[i]],c(120,120,3))
+  my_pic[[i]] <- array_reshape(my_pic[[i]],c(120,120,3))
 }
 str(my_pic)
 #Now we will combine data for traning and testing
